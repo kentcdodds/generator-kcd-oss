@@ -4,7 +4,6 @@
 All the benefits of npm scripts without the cost of a bloated package.json and limits of json
 
 [![Build Status][build-badge]][build]
-[![Code Coverage][coverage-badge]][coverage]
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npm-stat]
 [![MIT License][license-badge]][LICENSE]
@@ -61,8 +60,6 @@ MIT
 [generator-nm]: https://github.com/sindresorhus/generator-nm
 [build-badge]: https://img.shields.io/travis/kentcdodds/generator-kcd-oss.svg?style=flat-square
 [build]: https://travis-ci.org/kentcdodds/generator-kcd-oss
-[coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/generator-kcd-oss.svg?style=flat-square
-[coverage]: https://codecov.io/github/kentcdodds/generator-kcd-oss
 [version-badge]: https://img.shields.io/npm/v/generator-kcd-oss.svg?style=flat-square
 [package]: https://www.npmjs.com/package/generator-kcd-oss
 [downloads-badge]: https://img.shields.io/npm/dm/generator-kcd-oss.svg?style=flat-square
