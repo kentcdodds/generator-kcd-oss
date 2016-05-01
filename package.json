@@ -1,0 +1,59 @@
+{
+  "name": "generator-kcd-oss",
+  "description": "A generator for my projects. Feel free to contribute if you want to adapt it for more use cases",
+  "scripts": {
+    "start": "package-scripts",
+    "test": "package-scripts lint"
+  },
+  "files": [
+    "generators",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "open source",
+    "kentcdodds",
+    "yeoman-generator"
+  ],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.kebabcase": "4.0.1",
+    "npm-check": "5.2.1",
+    "yeoman-generator": "0.22.6"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^2.0.0",
+    "babel-eslint": "^6.0.4",
+    "commitizen": "^2.8.1",
+    "cz-conventional-changelog": "^1.1.6",
+    "eslint": "^2.9.0",
+    "eslint-config-kentcdodds": "^6.2.1",
+    "ghooks": "^1.2.1",
+    "opt-cli": "^1.4.2",
+    "p-s": "^0.4.0",
+    "rimraf": "^2.5.2",
+    "semantic-release": "^4.3.5",
+    "validate-commit-msg": "^2.6.1"
+  },
+  "eslintConfig": {
+    "extends": "kentcdodds/es-next"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "opt --in commit-msg --exec \"validate-commit-msg\"",
+      "pre-commit": "opt --in pre-commit --exec \"npm start validate\""
+    },
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kentcdodds/generator-kcd-oss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kentcdodds/generator-kcd-oss/issues"
+  },
+  "homepage": "https://github.com/kentcdodds/generator-kcd-oss#readme"
+}
