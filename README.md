@@ -1,5 +1,4 @@
 # generator-kcd-oss
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 All the benefits of npm scripts without the cost of a bloated package.json and limits of json
 
@@ -9,6 +8,7 @@ All the benefits of npm scripts without the cost of a bloated package.json and l
 [![MIT License][license-badge]][LICENSE]
 [![PRs Welcome][prs-badge]](http://makeapullrequest.com)
 [![Commitizen friendly][commitizen-badge]][commitizen]
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ## The problem
 
