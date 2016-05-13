@@ -8,7 +8,7 @@ All the benefits of npm scripts without the cost of a bloated package.json and l
 [![downloads][downloads-badge]][npm-stat]
 [![MIT License][license-badge]][LICENSE]
 [![PRs Welcome][prs-badge]](http://makeapullrequest.com)
-[![Commitizen friendly][commitizen-badge]][commitizen]
+[![Donate][donate-badge]][donate]
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ## The problem
@@ -66,7 +66,7 @@ MIT
 [license-badge]: https://img.shields.io/npm/l/<%= moduleName %>.svg?style=flat-square
 [license]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
-[commitizen]: http://commitizen.github.io/cz-cli/
+[donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
+[donate]: http://kcd.im/donate
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
