@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "all-contributors-cli": "^2.0.0",
+    "all-contributors-cli": "^3.0.0",
     "ava": "^0.14.0",
     "babel-cli": "^6.7.7",
     "babel-eslint": "^6.0.4",

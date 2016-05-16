@@ -7,9 +7,13 @@ All the benefits of npm scripts without the cost of a bloated package.json and l
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npm-stat]
 [![MIT License][license-badge]][LICENSE]
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
 [![PRs Welcome][prs-badge]][prs]
 [![Donate][donate-badge]][donate]
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![Code of Conduct][coc-badge]][coc]
+[![Roadmap][roadmap-badge]][roadmap]
+[![Examples][examples-badge]][examples]
 
 ## The problem
 
@@ -69,5 +73,9 @@ MIT
 [prs]: http://makeapullrequest.com
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
 [donate]: http://kcd.im/donate
+[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
+[coc]: https://github.com/kentcdodds/p-s/blob/master/other/CODE_OF_CONDUCT.md
+[roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
+[examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
