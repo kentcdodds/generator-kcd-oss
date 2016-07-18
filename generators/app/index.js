@@ -18,6 +18,11 @@ module.exports = yeoman.Base.extend({
         default: true,
         type: 'confirm',
       },
+      {
+        name: 'description',
+        message: `What's the project description?`,
+        type: 'input',
+      },
     ], props => {
       const mv = (from, to) => {
         this.fs.move(this.destinationPath(from), this.destinationPath(to))
@@ -32,6 +37,7 @@ module.exports = yeoman.Base.extend({
       mv('travis.yml', '.travis.yml')
       mv('npmrc', '.npmrc')
       mv('babelrc', '.babelrc')
+      mv('opt-in', '.opt-in')
       mv('eslintignore', '.eslintignore')
       mv('_package.json', 'package.json')
 

@@ -6,11 +6,12 @@ module.exports = {
     },
     test: {
       default: {
-        script: 'ava ./src/**/*.test.js',
+        description: 'Runs AVA with nyc (which is configured in package.json)',
+        script: 'nyc ava',
       },
       watch: {
-        description: 'pass the -w flag on to the npm t command so ava will watch stuff',
-        script: 'p-s test -w',
+        description: 'Run AVA in watch mode',
+        script: 'ava -w --require babel-register',
       },
     },
     build: {
@@ -21,16 +22,8 @@ module.exports = {
       description: 'lint the entire project',
       script: 'eslint .',
     },
-    checkCoverage: {
-      description: 'We want to keep 100% code coverage on this project because, reasons',
-      script: 'nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100',
-    },
-    cover: {
-      description: 'we use nyc to instrument our code for coverage. Some of the config happens in package.json',
-      script: 'nyc npm t',
-    },
     reportCoverage: {
-      description: 'Report coverage stats to codecov. This should be run after the `cover` script',
+      description: 'Report coverage stats to codecov. This should be run after the `test` script',
       script: 'codecov',
     },
     release: {
@@ -39,7 +32,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      script: 'p-s -p lint,build,cover && p-s check-coverage',
+      script: 'p-s -p lint,build,test',
     },
     addContributor: {
       description: 'When new people contribute to the project, run this',
