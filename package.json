@@ -19,25 +19,24 @@
   "license": "MIT",
   "dependencies": {
     "lodash.kebabcase": "4.0.1",
-    "npm-check": "5.2.1",
-    "yeoman-generator": "0.22.6"
+    "npm-check": "5.2.2",
+    "yeoman-generator": "0.24.1"
   },
   "devDependencies": {
-    "all-contributors-cli": "^2.0.0",
-    "babel-eslint": "^6.0.4",
+    "all-contributors-cli": "3.0.6",
     "commitizen": "^2.8.1",
     "cz-conventional-changelog": "^1.1.6",
-    "eslint": "^2.9.0",
-    "eslint-config-kentcdodds": "^6.2.1",
+    "eslint": "3.1.1",
+    "eslint-config-kentcdodds": "8.1.2",
     "ghooks": "^1.2.1",
     "opt-cli": "^1.4.2",
-    "p-s": "^0.4.0",
+    "p-s": "1.0.4",
     "rimraf": "^2.5.2",
     "semantic-release": "^4.3.5",
     "validate-commit-msg": "^2.6.1"
   },
   "eslintConfig": {
-    "extends": "kentcdodds/es-next"
+    "extends": "kentcdodds"
   },
   "config": {
     "ghooks": {
