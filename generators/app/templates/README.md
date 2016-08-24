@@ -16,6 +16,10 @@
 [![Roadmap][roadmap-badge]][roadmap]
 [![Examples][examples-badge]][examples]
 
+[![Watch on GitHub][github-watch-badge]][github-watch]
+[![Star on GitHub][github-star-badge]][github-star]
+[![Tweet][twitter-badge]][twitter]
+
 ## The problem
 
 
@@ -82,5 +86,11 @@ MIT
 [roadmap]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/ROADMAP.md
 [examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
 [examples]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/EXAMPLES.md
+[github-watch-badge]: https://img.shields.io/github/watch/kentcdodds/<%= moduleName %>.svg?style=social
+[github-watch]: https://github.com/kentcdodds/<%= moduleName %>/watchers
+[github-star-badge]: https://img.shields.io/github/stars/kentcdodds/<%= moduleName %>.svg?style=social
+[github-star]: https://github.com/kentcdodds/<%= moduleName %>/stargazers
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20<%= moduleName %>!%20https://github.com/kentcdodds/<%= moduleName %>%20%F0%9F%91%8D
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/kentcdodds/<%= moduleName %>.svg?style=social
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors

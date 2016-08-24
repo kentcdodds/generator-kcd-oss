@@ -1,5 +1,6 @@
 {
   "name": "generator-kcd-oss",
+  "version": "0.0.0-semantically-released",
   "description": "A generator for my projects. Feel free to contribute if you want to adapt it for more use cases",
   "scripts": {
     "start": "package-scripts",
