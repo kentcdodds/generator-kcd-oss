@@ -7,7 +7,6 @@ notifications:
   email: false
 node_js:
   - '6'
-  - '4'
 before_install:
   - npm i -g npm@^3.0.0
 before_script:
@@ -15,9 +14,6 @@ before_script:
 script:
   - npm start validate
 after_success:
-  - 'curl -Lo travis_after_all.py https://git.io/travis_after_all'
-  - python travis_after_all.py
-  - export $(cat .to_export_back) &> /dev/null
   - npm start report-coverage
   - npm start release
 branches:
