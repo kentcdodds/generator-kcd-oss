@@ -86,7 +86,7 @@ MIT
 [roadmap]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/ROADMAP.md
 [examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
 [examples]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/EXAMPLES.md
-[github-watch-badge]: https://img.shields.io/github/watch/kentcdodds/<%= moduleName %>.svg?style=social
+[github-watch-badge]: https://img.shields.io/github/watchers/kentcdodds/<%= moduleName %>.svg?style=social
 [github-watch]: https://github.com/kentcdodds/<%= moduleName %>/watchers
 [github-star-badge]: https://img.shields.io/github/stars/kentcdodds/<%= moduleName %>.svg?style=social
 [github-star]: https://github.com/kentcdodds/<%= moduleName %>/stargazers
