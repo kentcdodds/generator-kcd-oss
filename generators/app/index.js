@@ -23,7 +23,7 @@ module.exports = yeoman.Base.extend({
         message: `What's the project description?`,
         type: 'input',
       },
-    ], props => {
+    ]).then(props => {
       const mv = (from, to) => {
         this.fs.move(this.destinationPath(from), this.destinationPath(to))
       }
