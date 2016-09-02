@@ -5,14 +5,8 @@ module.exports = {
       script: 'git-cz',
     },
     test: {
-      default: {
-        description: 'Runs AVA with nyc (which is configured in package.json)',
-        script: 'nyc ava',
-      },
-      watch: {
-        description: 'Run AVA in watch mode',
-        script: 'ava -w --require babel-register',
-      },
+      default: `jest --coverage`,
+      watch: 'jest --watch --coverage',
     },
     build: {
       description: 'delete the dist directory and run babel to build the files',
