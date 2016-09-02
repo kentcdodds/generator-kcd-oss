@@ -30,6 +30,7 @@
     "eslint": "^3.4.0",
     "eslint-config-kentcdodds": "^10.1.0",
     "husky": "^0.11.7",
+    "jest-cli": "^15.1.0",
     "opt-cli": "^1.5.1",
     "p-s": "^2.4.3",
     "rimraf": "^2.5.4",
