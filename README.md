@@ -1,6 +1,6 @@
 # generator-kcd-oss
 
-All the benefits of npm scripts without the cost of a bloated package.json and limits of json
+An open source project generator for my open source projects :)
 
 [![Build Status][build-badge]][build]
 [![version][version-badge]][package]
