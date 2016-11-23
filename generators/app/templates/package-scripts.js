@@ -6,7 +6,7 @@ module.exports = {
     },
     test: {
       default: `jest --coverage`,
-      watch: 'jest --watch --coverage',
+      watch: 'jest --watch',
     },
     build: {
       description: 'delete the dist directory and run babel to build the files',
