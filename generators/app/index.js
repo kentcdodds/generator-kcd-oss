@@ -1,11 +1,9 @@
-const yeoman = require('yeoman-generator')
+const Generator = require('yeoman-generator')
 const kebabCase = require('lodash.kebabcase')
 
-module.exports = yeoman.Base.extend({
+module.exports = class extends Generator {
   init() {
-    const cb = this.async()
-
-    this.prompt([
+    return this.prompt([
       {
         name: 'moduleName',
         message: 'What do you want to name your module?',
@@ -40,22 +38,11 @@ module.exports = yeoman.Base.extend({
       mv('opt-in', '.opt-in')
       mv('eslintignore', '.eslintignore')
       mv('_package.json', 'package.json')
-
-      cb()
+      mv('all-contributorsrc', '.all-contributorsrc')
     })
-  },
-  git() {
-    this.spawnCommandSync('git', ['init'])
-  },
+  }
   install() {
-    this.npmInstall()
-  },
-  updateDependencies() {
-    this.spawnCommandSync('npm-check')
-  },
-  generateContributors() {
-    this.spawnCommandSync('./node_modules/.bin/all-contributors-cli init')
-    this.spawnCommandSync('npm start addContributor kentcdodds code,doc,test,infra')
-    this.spawnCommandSync('npm start generateContributors')
-  },
-})
+    this.spawnCommand('git', ['init'])
+    this.yarnInstall()
+  }
+}
