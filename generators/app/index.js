@@ -39,6 +39,7 @@ module.exports = class extends Generator {
       mv('eslintignore', '.eslintignore')
       mv('_package.json', 'package.json')
       mv('all-contributorsrc', '.all-contributorsrc')
+      mv('github', '.github')
     })
   }
   install() {
