@@ -7,7 +7,7 @@
     "start": "nps",
     "test": "nps test",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "opt --in pre-commit --exec \"npm start validate\""
+    "precommit": "lint-staged && opt --in pre-commit --exec \"npm start validate\""
   },
   "files": [
     "dist"
@@ -17,29 +17,43 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "all-contributors-cli": "^3.0.7",
-    "babel-cli": "^6.18.0",
-    "babel-jest": "^18.0.0",
-    "babel-preset-env": "^1.1.8",
-    "babel-preset-stage-2": "^6.18.0",
-    "babel-register": "^6.18.0",
+    "all-contributors-cli": "^4.0.1",
+    "babel-cli": "^6.23.0",
+    "babel-jest": "^19.0.0",
+    "babel-preset-env": "^1.2.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.23.0",
     "codecov": "^1.0.1",
-    "commitizen": "^2.8.6",
-    "cz-conventional-changelog": "^1.2.0",
-    "eslint": "^3.10.2",
-    "eslint-config-kentcdodds": "^11.1.0",
-    "husky": "^0.12.0",
-    "jest-cli": "^18.1.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.17.0",
+    "eslint-config-kentcdodds": "^12.0.0",
+    "husky": "^0.13.2",
+    "jest-cli": "^19.0.2",
+    "lint-staged": "^3.3.1",
+    "nps": "^5.0.3",
+    "nps-utils": "^1.1.2",
     "opt-cli": "^1.5.1",
-    "p-s": "^3.0.3",
-    "rimraf": "^2.5.4",
-    "semantic-release": "^6.3.3",
-    "validate-commit-msg": "^2.8.2"
+    "prettier-eslint-cli": "^3.1.2",
+    "semantic-release": "^6.3.6",
+    "validate-commit-msg": "^2.11.1"
   },
   "eslintConfig": {
     "extends": [
       "kentcdodds",
       "kentcdodds/jest"
+    ],
+    "rules": {
+      "max-len": [
+        "error",
+        80
+      ]
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "git add"
     ]
   },
   "jest": {
