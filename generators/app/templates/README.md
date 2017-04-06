@@ -79,7 +79,7 @@ MIT
 [downloads-badge]: https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square
 [npm-stat]: http://npm-stat.com/charts.html?package=<%= moduleName %>&from=2016-04-01
 [license-badge]: https://img.shields.io/npm/l/<%= moduleName %>.svg?style=flat-square
-[license]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/LICENSE
+[license]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
