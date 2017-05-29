@@ -1,4 +1,5 @@
 const npsUtils = require('nps-utils')
+
 const series = npsUtils.series
 const concurrent = npsUtils.concurrent
 const rimraf = npsUtils.rimraf
@@ -30,10 +31,6 @@ module.exports = {
     lint: {
       description: 'lint the entire project',
       script: 'eslint .',
-    },
-    reportCoverage: {
-      description: 'Report coverage stats to codecov. This should be run after the `test` script',
-      script: 'codecov',
     },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
