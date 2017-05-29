@@ -46,6 +46,7 @@
       "path": "node_modules/cz-conventional-changelog"
     }
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/kentcdodds/generator-kcd-oss.git"
