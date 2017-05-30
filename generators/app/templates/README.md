@@ -1,5 +1,5 @@
 <div style="text-align:center">
-<h1><%= moduleName %></h1>
+# <%= moduleName %>
 
 <%= description %>
 </div>
