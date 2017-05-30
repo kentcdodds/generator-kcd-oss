@@ -8,13 +8,12 @@ notifications:
   email: false
 node_js:
   - '6'
-before_script:
-  - yarn global add codecov
 script:
   - yarn start validate
 after_success:
+  - yarn global add codecov semantic-release
   - codecov
-  - yarn start release
+  - semantic-release pre && npm publish && semantic-release post
 branches:
   only:
     - master
