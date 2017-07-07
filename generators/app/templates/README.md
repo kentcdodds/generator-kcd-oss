@@ -1,7 +1,7 @@
-<div style="text-align:center">
-# <%= moduleName %>
+<div align="center">
+<h1><%= moduleName %></h1>
 
-<%= description %>
+**<%= description %>**
 </div>
 
 <hr />
