@@ -1,40 +1,32 @@
 <div align="center">
 <h1><%= moduleName %></h1>
 
-**<%= description %>**
+<strong><%= description %></strong>
 </div>
 
 <hr />
 
 [![Build Status][build-badge]][build]
 [![Code Coverage][coverage-badge]][coverage]
-[![Dependencies][dependencyci-badge]][dependencyci]
 [![version][version-badge]][package]
-[![downloads][downloads-badge]][npm-stat]
+[![downloads][downloads-badge]][npmcharts]
 [![MIT License][license-badge]][LICENSE]
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
-[![Donate][donate-badge]][donate]
 [![Code of Conduct][coc-badge]][coc]
-[![Roadmap][roadmap-badge]][roadmap]
-[![Examples][examples-badge]][examples]
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## The problem
 
-
+// TODO
 
 ## This solution
 
-
+// TODO
 
 ## Installation
 
@@ -47,11 +39,11 @@ npm install --save<% if (devDep) { %>-dev<% } %> <%= moduleName %>
 
 ## Usage
 
-
+// TODO
 
 ## Inspiration
 
-
+// TODO
 
 ## Other Solutions
 
@@ -80,24 +72,17 @@ MIT
 [build]: https://travis-ci.org/kentcdodds/<%= moduleName %>
 [coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/<%= moduleName %>.svg?style=flat-square
 [coverage]: https://codecov.io/github/kentcdodds/<%= moduleName %>
-[dependencyci-badge]: https://dependencyci.com/github/kentcdodds/<%= moduleName %>/badge?style=flat-square
-[dependencyci]: https://dependencyci.com/github/kentcdodds/<%= moduleName %>
 [version-badge]: https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square
 [package]: https://www.npmjs.com/package/<%= moduleName %>
 [downloads-badge]: https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square
-[npm-stat]: http://npm-stat.com/charts.html?package=<%= moduleName %>&from=2016-04-01
+[npmcharts]: http://npmcharts.com/compare/<%= moduleName %>
 [license-badge]: https://img.shields.io/npm/l/<%= moduleName %>.svg?style=flat-square
 [license]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
-[donate]: http://kcd.im/donate
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/CODE_OF_CONDUCT.md
-[roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
-[roadmap]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/ROADMAP.md
-[examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
-[examples]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/EXAMPLES.md
 [github-watch-badge]: https://img.shields.io/github/watchers/kentcdodds/<%= moduleName %>.svg?style=social
 [github-watch]: https://github.com/kentcdodds/<%= moduleName %>/watchers
 [github-star-badge]: https://img.shields.io/github/stars/kentcdodds/<%= moduleName %>.svg?style=social

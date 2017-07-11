@@ -3,6 +3,7 @@ const npsUtils = require('nps-utils')
 const series = npsUtils.series
 const concurrent = npsUtils.concurrent
 const rimraf = npsUtils.rimraf
+const crossEnv = npsUtils.crossEnv
 const commonTags = npsUtils.commonTags
 const oneLine = commonTags.oneLine
 
@@ -18,16 +19,10 @@ module.exports = {
         script: 'all-contributors generate',
       },
     },
-    commit: {
-      description: oneLine`
-        This uses commitizen to help us
-        generate well formatted commit messages
-      `,
-      script: 'git-cz',
-    },
     test: {
-      default: 'jest --coverage',
-      watch: 'jest --watch',
+      default: crossEnv('NODE_ENV=test jest --coverage'),
+      update: crossEnv('NODE_ENV=test jest --coverage --updateSnapshot'),
+      watch: crossEnv('NODE_ENV=test jest --watch'),
     },
     build: {
       description: 'delete the dist directory and run babel to build the files',
