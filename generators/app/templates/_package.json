@@ -3,6 +3,10 @@
   "version": "0.0.0-semantically-released",
   "description": "<%= description %>",
   "main": "dist/index.js",
+  "engines": {
+    "node": "> 4",
+    "npm": "> 3"
+  },
   "scripts": {
     "start": "nps",
     "test": "nps test",
