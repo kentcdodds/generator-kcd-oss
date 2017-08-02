@@ -12,7 +12,7 @@ Thanks for being willing to contribute!
 3. `$ npm start validate` to validate you've got it working
 4. Create a branch for your PR
 
-This project uses [`nps`](https://github.com/kentcdodds/nps) and you can run `npm start help` to see what
+This project uses [`nps`][nps] and you can run `npm start help` to see what
 scripts are available.
 
 > Tip: Keep your `master` branch pointing at the original repository and make
@@ -81,3 +81,4 @@ Also, please watch the repo and respond to questions/bug reports/feature request
 [convention]: https://github.com/conventional-changelog/conventional-changelog-angular/blob/ed32559941719a130bb0327f886d6a32a8cbc2ba/convention.md
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [issues]: https://github.com/kentcdodds/<%= moduleName %>/issues
+[nps]: https://github.com/kentcdodds/nps
