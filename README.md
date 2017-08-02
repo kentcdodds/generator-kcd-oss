@@ -8,7 +8,7 @@ An open source project generator for my open source projects :)
 [![MIT License][license-badge]][LICENSE]
 [![PRs Welcome][prs-badge]](http://makeapullrequest.com)
 [![Donate][donate-badge]][donate]
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 ## The problem
 
@@ -44,8 +44,8 @@ I referenced [@sindresorhus][sindresorhus]'s [module][generator-nm] heavily.
 Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [![Kent C. Dodds](https://avatars.githubusercontent.com/u/1500684?v=3&s=100)<br /><sub>Kent C. Dodds</sub>](http://kent.doddsfamily.us)<br />[💻](https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds) [📖](https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds) 🚇 |
-| :---: |
+| [<img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;"/><br /><sub>Kent C. Dodds</sub>](http://kent.doddsfamily.us)<br />[💻](https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds "Code") [📖](https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds "Documentation") [🚇](#infra-kentcdodds "Infrastructure (Hosting, Build-Tools, etc)") | [<img src="https://avatars0.githubusercontent.com/u/3415488?v=4" width="100px;"/><br /><sub>Anup</sub>](https://github.com/reznord)<br />[📖](https://github.com/kentcdodds/generator-kcd-oss/commits?author=reznord "Documentation") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification. Contributions of any kind welcome!

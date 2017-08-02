@@ -41,7 +41,8 @@ automated script as part of your PR:
 npm start contributors.add
 ```
 
-Follow the prompt. If you've already added yourself to the list and are making
+Follow the prompt and commit `.all-contributorsrc` and `README.md` in the PR.
+If you've already added yourself to the list and are making
 a new type of contribution, you can run it again and select the added
 contribution type.
 
@@ -80,3 +81,4 @@ Also, please watch the repo and respond to questions/bug reports/feature request
 [convention]: https://github.com/conventional-changelog/conventional-changelog-angular/blob/ed32559941719a130bb0327f886d6a32a8cbc2ba/convention.md
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [issues]: https://github.com/kentcdodds/generator-kcd-oss/issues
+[nps]: https://github.com/kentcdodds/nps
