@@ -23,6 +23,7 @@ module.exports = {
       default: crossEnv('NODE_ENV=test jest --coverage'),
       update: crossEnv('NODE_ENV=test jest --coverage --updateSnapshot'),
       watch: crossEnv('NODE_ENV=test jest --watch'),
+      openCoverage: 'open coverage/lcov-report/index.html',
     },
     build: {
       description: 'delete the dist directory and run babel to build the files',
