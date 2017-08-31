@@ -1,8 +1,15 @@
+const ignores = [
+  '/node_modules/',
+  '/fixtures/',
+  '/__tests__/helpers/',
+  '__mocks__',
+]
+
 module.exports = {
   testEnvironment: 'node',
   collectCoverageFrom: ['src/**/*.js'],
-  testPathIgnorePatterns: ['/node_modules/', '/fixtures/'],
-  coveragePathIgnorePatterns: ['/node_modules/', '/fixtures/'],
+  testPathIgnorePatterns: ignores,
+  coveragePathIgnorePatterns: ignores,
   coverageThreshold: {
     global: {
       branches: 100,

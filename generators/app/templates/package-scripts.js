@@ -4,8 +4,6 @@ const series = npsUtils.series
 const concurrent = npsUtils.concurrent
 const rimraf = npsUtils.rimraf
 const crossEnv = npsUtils.crossEnv
-const commonTags = npsUtils.commonTags
-const oneLine = commonTags.oneLine
 
 module.exports = {
   scripts: {
@@ -37,10 +35,7 @@ module.exports = {
       script: 'eslint . --cache',
     },
     validate: {
-      description: oneLine`
-        This runs several scripts to make sure things look
-        good before committing or on clean install
-      `,
+      description: `This runs several scripts to make sure things look good before committing or on clean install`,
       script: concurrent.nps('lint', 'build', 'test'),
     },
   },
@@ -48,16 +43,3 @@ module.exports = {
     silent: false,
   },
 }
-
-// this is not transpiled
-/*
-  eslint
-  comma-dangle: [
-    2,
-    {
-      arrays: 'always-multiline',
-      objects: 'always-multiline',
-      functions: 'never'
-    }
-  ]
- */
