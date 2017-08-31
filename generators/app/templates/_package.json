@@ -35,10 +35,20 @@
     "nps": "^5.4.0",
     "nps-utils": "^1.2.0",
     "opt-cli": "^1.5.1",
-    "prettier-eslint-cli": "^4.1.1"
+    "prettier": "^1.6.1"
   },
   "lint-staged": {
-    "*.+(js|json)": ["prettier-eslint --write", "git add"]
+    "*.+(js|json)": ["prettier --write", "git add"]
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": false,
+    "jsxBraketSameLine": false
   },
   "repository": {
     "type": "git",
