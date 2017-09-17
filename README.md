@@ -86,4 +86,5 @@ MIT
 [github-star]: https://github.com/kentcdodds/generator-kcd-oss/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20generator-kcd-oss%20by%20%40kentcdodds%20https%3A%2F%2Fgithub.com%2Fkentcdodds%2Fgenerator-kcd-oss%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/kentcdodds/generator-kcd-oss.svg?style=social
+[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
