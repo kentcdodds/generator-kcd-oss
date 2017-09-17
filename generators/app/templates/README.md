@@ -1,7 +1,7 @@
 <div align="center">
 <h1><%= moduleName %></h1>
 
-<strong><%= description %></strong>
+<p><%= description %></p>
 </div>
 
 <hr />
@@ -9,7 +9,7 @@
 [![Build Status][build-badge]][build]
 [![Code Coverage][coverage-badge]][coverage]
 [![version][version-badge]][package]
-[![downloads][downloads-badge]][npmcharts]
+[![downloads][downloads-badge]][npmtrends]
 [![MIT License][license-badge]][LICENSE]
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
@@ -75,7 +75,7 @@ MIT
 [version-badge]: https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square
 [package]: https://www.npmjs.com/package/<%= moduleName %>
 [downloads-badge]: https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square
-[npmcharts]: http://npmcharts.com/compare/<%= moduleName %>
+[npmtrends]: http://www.npmtrends.com/<%= moduleName %>
 [license-badge]: https://img.shields.io/npm/l/<%= moduleName %>.svg?style=flat-square
 [license]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
