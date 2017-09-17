@@ -1,14 +1,23 @@
-# generator-kcd-oss
+<div align="center">
+<h1>generator-kcd-oss</h1>
 
-An open source project generator for my open source projects :)
+<p>An open source project generator for my open source projects :)</p>
+</div>
+
+<hr />
 
 [![Build Status][build-badge]][build]
 [![version][version-badge]][package]
-[![downloads][downloads-badge]][npm-stat]
+[![downloads][downloads-badge]][npmtrends]
 [![MIT License][license-badge]][LICENSE]
-[![PRs Welcome][prs-badge]](http://makeapullrequest.com)
-[![Donate][donate-badge]][donate]
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![PRs Welcome][prs-badge]][prs]
+[![Code of Conduct][coc-badge]][coc]
+
+[![Watch on GitHub][github-watch-badge]][github-watch]
+[![Star on GitHub][github-star-badge]][github-star]
+[![Tweet][twitter-badge]][twitter]
 
 ## The problem
 
@@ -63,11 +72,18 @@ MIT
 [version-badge]: https://img.shields.io/npm/v/generator-kcd-oss.svg?style=flat-square
 [package]: https://www.npmjs.com/package/generator-kcd-oss
 [downloads-badge]: https://img.shields.io/npm/dm/generator-kcd-oss.svg?style=flat-square
-[npm-stat]: http://npm-stat.com/charts.html?package=generator-kcd-oss&from=2016-04-01
+[npmtrends]: http://www.npmtrends.com/generator-kcd-oss
 [license-badge]: https://img.shields.io/npm/l/generator-kcd-oss.svg?style=flat-square
 [license]: https://github.com/kentcdodds/generator-kcd-oss/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
-[donate]: http://kcd.im/donate
-[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
+[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
+[coc]: https://github.com/kentcdodds/generator-kcd-oss/blob/master/other/CODE_OF_CONDUCT.md
+[github-watch-badge]: https://img.shields.io/github/watchers/kentcdodds/generator-kcd-oss.svg?style=social
+[github-watch]: https://github.com/kentcdodds/generator-kcd-oss/watchers
+[github-star-badge]: https://img.shields.io/github/stars/kentcdodds/generator-kcd-oss.svg?style=social
+[github-star]: https://github.com/kentcdodds/generator-kcd-oss/stargazers
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20generator-kcd-oss%20by%20%40kentcdodds%20https%3A%2F%2Fgithub.com%2Fkentcdodds%2Fgenerator-kcd-oss%20%F0%9F%91%8D
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/kentcdodds/generator-kcd-oss.svg?style=social
 [all-contributors]: https://github.com/kentcdodds/all-contributors

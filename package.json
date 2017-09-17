@@ -1,23 +1,16 @@
 {
   "name": "generator-kcd-oss",
   "version": "0.0.0-semantically-released",
-  "description": "A generator for my projects. Feel free to contribute if you want to adapt it for more use cases",
+  "description":
+    "A generator for my projects. Feel free to contribute if you want to adapt it for more use cases",
   "scripts": {
-    "start": "nps",
-    "test": "nps lint",
-    "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "opt --in pre-commit --exec \"npm start validate\""
+    "add-contributor": "kcd-scripts contributors add",
+    "lint": "kcd-scripts lint",
+    "validate": "kcd-scripts validate",
+    "precommit": "kcd-scripts precommit"
   },
-  "files": [
-    "generators",
-    "README.md",
-    "LICENSE"
-  ],
-  "keywords": [
-    "open source",
-    "kentcdodds",
-    "yeoman-generator"
-  ],
+  "files": ["generators"],
+  "keywords": ["open source", "kentcdodds", "yeoman-generator"],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "dependencies": {
@@ -26,26 +19,12 @@
     "yeoman-generator": "^1.0.1"
   },
   "devDependencies": {
-    "all-contributors-cli": "^4.3.0",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^3.19.0",
-    "eslint-config-kentcdodds": "^12.3.0",
-    "husky": "^0.13.4",
-    "nps": "^5.3.1",
-    "opt-cli": "^1.4.2",
-    "rimraf": "^2.6.1",
-    "semantic-release": "^6.3.2",
-    "validate-commit-msg": "^2.12.1"
+    "kcd-scripts": "^0.16.0"
   },
   "eslintConfig": {
-    "extends": "kentcdodds"
+    "extends": "./node_modules/kcd-scripts/eslint.js"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  },
+  "eslintIgnore": ["node_modules", "coverage", "dist"],
   "preferGlobal": true,
   "repository": {
     "type": "git",
