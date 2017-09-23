@@ -19,7 +19,7 @@
     "yeoman-generator": "^1.0.1"
   },
   "devDependencies": {
-    "kcd-scripts": "^0.16.0"
+    "kcd-scripts": "^0.21.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"

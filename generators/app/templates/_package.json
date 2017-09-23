@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "kcd-scripts": "^0.16.0"
+    "kcd-scripts": "^0.21.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
