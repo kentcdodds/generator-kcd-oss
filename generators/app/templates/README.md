@@ -30,6 +30,25 @@
 
 // TODO
 
+## Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION. It'll update automatically -->
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Props](#props)
+- [Control Props](#control-props)
+- [Child Callback Function](#child-callback-function)
+- [Examples](#examples)
+- [FAQ](#faq)
+- [Inspiration](#inspiration)
+- [Other Solutions](#other-solutions)
+- [Contributors](#contributors)
+- [LICENSE](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Installation
 
 This module is distributed via [npm][npm] which is bundled with [node][node] and
