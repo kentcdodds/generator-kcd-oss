@@ -1,18 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [generator-kcd-oss](#generator-kcd-oss)
-  - [The problem](#the-problem)
-  - [This solution](#this-solution)
-  - [Installation](#installation)
-    - [Try Without Installing](#try-without-installing)
-  - [Usage](#usage)
-  - [Inspiration](#inspiration)
-  - [Contributors](#contributors)
-  - [LICENSE](#license)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 <div align="center">
 <h1>generator-kcd-oss</h1>
 
