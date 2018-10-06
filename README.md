@@ -36,6 +36,12 @@ be installed globally (with `yo`):
 npm install -g generator-kcd-oss yo
 ```
 
+### Try Without Installing
+
+```sh
+npx -p yo -p generator-kcd-oss -c 'yo kcd-oss'
+```
+
 ## Usage
 
 ```
