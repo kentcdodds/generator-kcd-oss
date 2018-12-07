@@ -20,7 +20,9 @@
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/runtime": "^7.2.0"
+  },
   "devDependencies": {
     "kcd-scripts": "^0.46.0"
   },
