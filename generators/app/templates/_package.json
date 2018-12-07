@@ -14,8 +14,7 @@
     "test": "kcd-scripts test",
     "test:update": "npm test -- --updateSnapshot --coverage",
     "validate": "kcd-scripts validate",
-    "setup": "npm install && npm run validate -s",
-    "precommit": "kcd-scripts precommit"
+    "setup": "npm install && npm run validate -s"
   },
   "files": ["dist"],
   "keywords": [],
@@ -23,7 +22,12 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "kcd-scripts": "^0.36.1"
+    "kcd-scripts": "^0.46.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "kcd-scripts precommit"
+    }
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
