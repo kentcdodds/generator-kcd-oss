@@ -21,26 +21,38 @@ module.exports = class extends Generator {
         message: `What's the project description?`,
         type: 'input',
       },
+      {
+        name: 'website',
+        message: "What's your website?",
+        type: 'input',
+        default: 'YOUR_WEBSITE',
+      },
     ]).then(props => {
       const mv = (from, to) => {
         this.fs.move(this.destinationPath(from), this.destinationPath(to))
       }
 
-      this.fs.copyTpl(
-        [`${this.templatePath()}/**`],
-        this.destinationPath(),
-        props,
-      )
+      this.user.github.username().then(username => {
+        this.fs.copyTpl([`${this.templatePath()}/**`], this.destinationPath(), {
+          ...props,
+          name: this.user.git.name() || 'YOUR_NAME',
+          email: this.user.git.email() || 'YOUR_EMAIL',
+          username: username || 'YOUR_USERNAME',
+        })
 
-      mv('gitattributes', '.gitattributes')
-      mv('gitignore', '.gitignore')
-      mv('travis.yml', '.travis.yml')
-      mv('npmrc', '.npmrc')
-      mv('opt-in', '.opt-in')
-      mv('_package.json', 'package.json')
-      mv('all-contributorsrc', '.all-contributorsrc')
-      mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md')
-      mv('github/PULL_REQUEST_TEMPLATE.md', '.github/PULL_REQUEST_TEMPLATE.md')
+        mv('gitattributes', '.gitattributes')
+        mv('gitignore', '.gitignore')
+        mv('travis.yml', '.travis.yml')
+        mv('npmrc', '.npmrc')
+        mv('opt-in', '.opt-in')
+        mv('_package.json', 'package.json')
+        mv('all-contributorsrc', '.all-contributorsrc')
+        mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md')
+        mv(
+          'github/PULL_REQUEST_TEMPLATE.md',
+          '.github/PULL_REQUEST_TEMPLATE.md',
+        )
+      })
     })
   }
   install() {

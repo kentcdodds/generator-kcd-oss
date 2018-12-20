@@ -18,7 +18,7 @@
   },
   "files": ["dist"],
   "keywords": [],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "<%= name %> <<%= email %>> (<%= website %>)",
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.2.0"
@@ -37,10 +37,10 @@
   "eslintIgnore": ["node_modules", "coverage", "dist"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/<%= moduleName %>.git"
+    "url": "https://github.com/<%= username %>/<%= moduleName %>.git"
   },
   "bugs": {
-    "url": "https://github.com/kentcdodds/<%= moduleName %>/issues"
+    "url": "https://github.com/<%= username %>/<%= moduleName %>/issues"
   },
-  "homepage": "https://github.com/kentcdodds/<%= moduleName %>#readme"
+  "homepage": "https://github.com/<%= username %>/<%= moduleName %>#readme"
 }
