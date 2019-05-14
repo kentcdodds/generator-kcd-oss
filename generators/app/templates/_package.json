@@ -4,11 +4,11 @@
   "description": "<%= description %>",
   "main": "dist/index.js",
   "engines": {
-    "node": "> 4",
-    "npm": "> 3"
+    "node": ">=10",
+    "npm": ">=6",
+    "yarn": ">=1"
   },
   "scripts": {
-    "add-contributor": "kcd-scripts contributors add",
     "build": "kcd-scripts build",
     "lint": "kcd-scripts lint",
     "test": "kcd-scripts test",
@@ -16,15 +16,17 @@
     "validate": "kcd-scripts validate",
     "setup": "npm install && npm run validate -s"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "dependencies": {
-    "@babel/runtime": "^7.2.0"
+    "@babel/runtime": "^7.4.4"
   },
   "devDependencies": {
-    "kcd-scripts": "^0.46.0"
+    "kcd-scripts": "^1.4.0"
   },
   "husky": {
     "hooks": {
@@ -34,7 +36,6 @@
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
   },
-  "eslintIgnore": ["node_modules", "coverage", "dist"],
   "repository": {
     "type": "git",
     "url": "https://github.com/kentcdodds/<%= moduleName %>.git"

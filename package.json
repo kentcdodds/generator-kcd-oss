@@ -1,30 +1,42 @@
 {
   "name": "generator-kcd-oss",
   "version": "0.0.0-semantically-released",
-  "description":
-    "A generator for my projects. Feel free to contribute if you want to adapt it for more use cases",
+  "description": "A generator for my projects. Feel free to contribute if you want to adapt it for more use cases",
   "scripts": {
-    "add-contributor": "kcd-scripts contributors add",
     "lint": "kcd-scripts lint",
-    "validate": "kcd-scripts validate",
-    "precommit": "kcd-scripts precommit"
+    "validate": "kcd-scripts validate"
   },
-  "files": ["generators"],
-  "keywords": ["open source", "kentcdodds", "yeoman-generator"],
+  "husky": {
+    "hooks": {
+      "pre-commit": "kcd-scripts pre-commit"
+    }
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "open source",
+    "kentcdodds",
+    "yeoman-generator"
+  ],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "dependencies": {
     "lodash.kebabcase": "^4.1.1",
     "npm-check": "^5.5.2",
-    "yeoman-generator": "^2.0.3"
+    "yeoman-generator": "^4.0.0"
   },
   "devDependencies": {
-    "kcd-scripts": "^0.36.1"
+    "kcd-scripts": "^1.4.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
   },
-  "eslintIgnore": ["node_modules", "coverage", "dist"],
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ],
   "preferGlobal": true,
   "repository": {
     "type": "git",

@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [generator-kcd-oss](#generator-kcd-oss)
+  - [The problem](#the-problem)
+  - [This solution](#this-solution)
+  - [Installation](#installation)
+    - [Try Without Installing](#try-without-installing)
+  - [Usage](#usage)
+  - [Inspiration](#inspiration)
+  - [Contributors](#contributors)
+  - [LICENSE](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <div align="center">
 <h1>generator-kcd-oss</h1>
 
@@ -60,8 +75,7 @@ Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;"/><br /><sub><b>Kent C. Dodds</b></sub>](http://kent.doddsfamily.us)<br />[💻](https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds "Code") [📖](https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds "Documentation") [🚇](#infra-kentcdodds "Infrastructure (Hosting, Build-Tools, etc)") | [<img src="https://avatars0.githubusercontent.com/u/3415488?v=4" width="100px;"/><br /><sub><b>Anup</b></sub>](https://github.com/reznord)<br />[📖](https://github.com/kentcdodds/generator-kcd-oss/commits?author=reznord "Documentation") | [<img src="https://avatars3.githubusercontent.com/u/622118?v=4" width="100px;"/><br /><sub><b>Eric McCormick</b></sub>](https://edm00se.codes/)<br />[📖](https://github.com/kentcdodds/generator-kcd-oss/commits?author=edm00se "Documentation") |
-| :---: | :---: | :---: |
+<table><tr><td align="center"><a href="http://kent.doddsfamily.us"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td><td align="center"><a href="https://github.com/reznord"><img src="https://avatars0.githubusercontent.com/u/3415488?v=4" width="100px;" alt="Anup"/><br /><sub><b>Anup</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=reznord" title="Documentation">📖</a></td><td align="center"><a href="https://edm00se.codes/"><img src="https://avatars3.githubusercontent.com/u/622118?v=4" width="100px;" alt="Eric McCormick"/><br /><sub><b>Eric McCormick</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=edm00se" title="Documentation">📖</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

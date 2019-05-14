@@ -10,15 +10,11 @@
 [![Code Coverage][coverage-badge]][coverage]
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npmtrends]
-[![MIT License][license-badge]][LICENSE]
+[![MIT License][license-badge]][license]
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 [![Code of Conduct][coc-badge]][coc]
-
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
 
 ## The problem
 
@@ -74,8 +70,9 @@ here!
 Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;"/><br /><sub>Kent C. Dodds</sub>](https://kentcdodds.com)<br />[💻](https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds) [📖](https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds) 🚇 [⚠️](https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds) |
-| :---: |
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds" title="Tests">⚠️</a></td></tr></table>
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
@@ -87,6 +84,7 @@ MIT
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
+
 [build-badge]: https://img.shields.io/travis/kentcdodds/<%= moduleName %>.svg?style=flat-square
 [build]: https://travis-ci.org/kentcdodds/<%= moduleName %>
 [coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/<%= moduleName %>.svg?style=flat-square
@@ -102,11 +100,5 @@ MIT
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/CODE_OF_CONDUCT.md
-[github-watch-badge]: https://img.shields.io/github/watchers/kentcdodds/<%= moduleName %>.svg?style=social
-[github-watch]: https://github.com/kentcdodds/<%= moduleName %>/watchers
-[github-star-badge]: https://img.shields.io/github/stars/kentcdodds/<%= moduleName %>.svg?style=social
-[github-star]: https://github.com/kentcdodds/<%= moduleName %>/stargazers
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20<%= moduleName %>%20by%20%40kentcdodds%20https%3A%2F%2Fgithub.com%2Fkentcdodds%2F<%= moduleName %>%20%F0%9F%91%8D
-[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/kentcdodds/<%= moduleName %>.svg?style=social
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
