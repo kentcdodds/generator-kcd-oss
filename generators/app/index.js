@@ -39,6 +39,7 @@ module.exports = class extends Generator {
       mv('opt-in', '.opt-in')
       mv('_package.json', 'package.json')
       mv('all-contributorsrc', '.all-contributorsrc')
+      mv('prettierrc', '.prettierrc')
       mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md')
       mv('github/PULL_REQUEST_TEMPLATE.md', '.github/PULL_REQUEST_TEMPLATE.md')
     })
