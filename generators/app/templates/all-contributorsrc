@@ -19,5 +19,9 @@
         "test"
       ]
     }
-  ]
+  ],
+  "contributorsPerLine": 7,
+  "repoHost": "https://github.com",
+  "repoType": "github",
+  "skipCi": true
 }

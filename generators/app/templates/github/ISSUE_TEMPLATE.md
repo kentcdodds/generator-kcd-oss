@@ -13,7 +13,7 @@ learn how: http://kcd.im/pull-request
 
 - `<%= moduleName %>` version:
 - `node` version:
-- `npm` (or `yarn`) version:
+- `npm` version:
 
 Relevant code or config
 

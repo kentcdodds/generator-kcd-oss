@@ -3,30 +3,31 @@
   "version": "0.0.0-semantically-released",
   "description": "<%= description %>",
   "main": "dist/index.js",
-  "engines": {
-    "node": ">=10",
-    "npm": ">=6",
-    "yarn": ">=1"
+  "keywords": [],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kentcdodds/<%= moduleName %>"
   },
+  "bugs": {
+    "url": "https://github.com/kentcdodds/<%= moduleName %>/issues"
+  },
+  "homepage": "https://github.com/kentcdodds/<%= moduleName %>#readme",
+  "files": ["dist"],
   "scripts": {
     "build": "kcd-scripts build",
     "lint": "kcd-scripts lint",
+    "setup": "npm install && npm run validate -s",
     "test": "kcd-scripts test",
     "test:update": "npm test -- --updateSnapshot --coverage",
-    "validate": "kcd-scripts validate",
-    "setup": "npm install && npm run validate -s"
+    "validate": "kcd-scripts validate"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
-  "license": "MIT",
   "dependencies": {
-    "@babel/runtime": "^7.4.4"
+    "@babel/runtime": "^7.8.3"
   },
   "devDependencies": {
-    "kcd-scripts": "^1.4.0"
+    "kcd-scripts": "^4.1.0"
   },
   "husky": {
     "hooks": {
@@ -36,12 +37,8 @@
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kentcdodds/<%= moduleName %>.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kentcdodds/<%= moduleName %>/issues"
-  },
-  "homepage": "https://github.com/kentcdodds/<%= moduleName %>#readme"
+  "engines": {
+    "node": ">=10.13",
+    "npm": ">=6"
+  }
 }
