@@ -94,7 +94,7 @@ Thanks goes to these people ([emoji key][emojis]):
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://kent.doddsfamily.us"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://github.com/reznord"><img src="https://avatars0.githubusercontent.com/u/3415488?v=4" width="100px;" alt="Anup"/><br /><sub><b>Anup</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=reznord" title="Documentation">📖</a></td>
     <td align="center"><a href="https://edm00se.codes"><img src="https://avatars3.githubusercontent.com/u/622118?v=4" width="100px;" alt="Eric McCormick"/><br /><sub><b>Eric McCormick</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=edm00se" title="Documentation">📖</a></td>
   </tr>
@@ -132,7 +132,6 @@ MIT
 [bugs]: https://github.com/kentcdodds/generator-kcd-oss/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Acreated-desc+label%3Abug
 [requests]: https://github.com/kentcdodds/generator-kcd-oss/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
 [good-first-issue]: https://github.com/kentcdodds/generator-kcd-oss/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
-
 
 [sindresorhus]: https://github.com/sindresorhus
 [generator-nm]: https://github.com/sindresorhus/generator-nm
