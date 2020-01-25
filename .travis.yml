@@ -12,3 +12,4 @@ after_success: kcd-scripts travis-after-success
 branches:
   only:
     - master
+    - next
