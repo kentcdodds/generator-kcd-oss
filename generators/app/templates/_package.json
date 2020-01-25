@@ -14,7 +14,9 @@
     "url": "https://github.com/kentcdodds/<%= moduleName %>/issues"
   },
   "homepage": "https://github.com/kentcdodds/<%= moduleName %>#readme",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "kcd-scripts build",
     "lint": "kcd-scripts lint",
