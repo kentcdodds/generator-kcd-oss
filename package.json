@@ -2,32 +2,41 @@
   "name": "generator-kcd-oss",
   "version": "0.0.0-semantically-released",
   "description": "A generator for my projects. Feel free to contribute if you want to adapt it for more use cases",
-  "scripts": {
-    "lint": "kcd-scripts lint",
-    "validate": "kcd-scripts validate"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "kcd-scripts pre-commit"
-    }
-  },
-  "files": [
-    "generators"
-  ],
   "keywords": [
     "open source",
     "kentcdodds",
     "yeoman-generator"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Kent C. Dodds <kentcdodds@gmail.com> (https://kentcdodds.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kentcdodds/generator-kcd-oss"
+  },
+  "bugs": {
+    "url": "https://github.com/kentcdodds/generator-kcd-oss/issues"
+  },
+  "homepage": "https://github.com/kentcdodds/generator-kcd-oss#readme",
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+    "lint": "kcd-scripts lint",
+    "setup": "npm install && npm run validate -s",
+    "validate": "kcd-scripts validate"
+  },
   "dependencies": {
     "lodash.kebabcase": "^4.1.1",
     "npm-check": "^5.5.2",
-    "yeoman-generator": "^4.0.0"
+    "yeoman-generator": "^4.4.0"
   },
   "devDependencies": {
-    "kcd-scripts": "^1.4.0"
+    "kcd-scripts": "^5.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "kcd-scripts pre-commit"
+    }
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
@@ -37,13 +46,8 @@
     "coverage",
     "dist"
   ],
-  "preferGlobal": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kentcdodds/generator-kcd-oss.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kentcdodds/generator-kcd-oss/issues"
-  },
-  "homepage": "https://github.com/kentcdodds/generator-kcd-oss#readme"
+  "engines": {
+    "node": ">=10.13",
+    "npm": ">=6"
+  }
 }
