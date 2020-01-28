@@ -6,6 +6,10 @@
   "keywords": [],
   "author": "Kent C. Dodds <kentcdodds@gmail.com> (https://kentcdodds.com)",
   "license": "MIT",
+  "engines": {
+    "node": ">=10.13",
+    "npm": ">=6"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kentcdodds/<%= moduleName %>"
@@ -38,9 +42,5 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
-  },
-  "engines": {
-    "node": ">=10.13",
-    "npm": ">=6"
   }
 }
