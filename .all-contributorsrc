@@ -1,11 +1,15 @@
 {
   "projectName": "generator-kcd-oss",
   "projectOwner": "kentcdodds",
+  "imageSize": 100,
+  "commit": false,
+  "contributorsPerLine": 7,
+  "repoHost": "https://github.com",
+  "repoType": "github",
+  "skipCi": false,
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
-  "commit": false,
   "contributors": [
     {
       "login": "kentcdodds",
@@ -36,9 +40,5 @@
         "doc"
       ]
     }
-  ],
-  "contributorsPerLine": 7,
-  "repoHost": "https://github.com",
-  "repoType": "github",
-  "skipCi": false
+  ]
 }
