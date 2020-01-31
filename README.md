@@ -94,15 +94,15 @@ Thanks goes to these people ([emoji key][emojis]):
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="https://github.com/reznord"><img src="https://avatars0.githubusercontent.com/u/3415488?v=4" width="100px;" alt="Anup"/><br /><sub><b>Anup</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=reznord" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://edm00se.codes"><img src="https://avatars3.githubusercontent.com/u/622118?v=4" width="100px;" alt="Eric McCormick"/><br /><sub><b>Eric McCormick</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=edm00se" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/reznord"><img src="https://avatars0.githubusercontent.com/u/3415488?v=4" width="100px;" alt=""/><br /><sub><b>Anup</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=reznord" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://edm00se.codes/"><img src="https://avatars3.githubusercontent.com/u/622118?v=4" width="100px;" alt=""/><br /><sub><b>Eric McCormick</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=edm00se" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=MichaelDeBoey" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
