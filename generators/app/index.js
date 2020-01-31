@@ -36,7 +36,6 @@ module.exports = class extends Generator {
       mv('gitignore', '.gitignore')
       mv('travis.yml', '.travis.yml')
       mv('npmrc', '.npmrc')
-      mv('opt-in', '.opt-in')
       mv('_package.json', 'package.json')
       mv('all-contributorsrc', '.all-contributorsrc')
       mv('prettierrc.js', '.prettierrc.js')
