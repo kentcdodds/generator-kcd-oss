@@ -33,7 +33,7 @@
     "@babel/runtime": "^7.8.4"
   },
   "devDependencies": {
-    "kcd-scripts": "^5.1.1"
+    "kcd-scripts": "^5.2.0"
   },
   "husky": {
     "hooks": {
