@@ -4,7 +4,7 @@
   "description": "<%= description %>",
   "main": "dist/index.js",
   "keywords": [],
-  "author": "Kent C. Dodds <kentcdodds@gmail.com> (https://kentcdodds.com)",
+  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com)",
   "license": "MIT",
   "engines": {
     "node": ">=10.13",
@@ -30,10 +30,10 @@
     "validate": "kcd-scripts validate"
   },
   "dependencies": {
-    "@babel/runtime": "^7.8.3"
+    "@babel/runtime": "^7.8.4"
   },
   "devDependencies": {
-    "kcd-scripts": "^5.0.0"
+    "kcd-scripts": "^5.1.0"
   },
   "husky": {
     "hooks": {

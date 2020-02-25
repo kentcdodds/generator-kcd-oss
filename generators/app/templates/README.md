@@ -6,13 +6,17 @@
 
 ---
 
+<!-- prettier-ignore-start -->
 [![Build Status][build-badge]][build]
 [![Code Coverage][coverage-badge]][coverage]
-[![version][version-badge]][package] [![downloads][downloads-badge]][npmtrends]
+[![version][version-badge]][package]
+[![downloads][downloads-badge]][npmtrends]
 [![MIT License][license-badge]][license]
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
+[![PRs Welcome][prs-badge]][prs]
+[![Code of Conduct][coc-badge]][coc]
+<!-- prettier-ignore-end -->
 
 ## The problem
 
