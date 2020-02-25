@@ -31,7 +31,7 @@
     "yeoman-generator": "^4.5.0"
   },
   "devDependencies": {
-    "kcd-scripts": "^5.1.0"
+    "kcd-scripts": "^5.1.1"
   },
   "husky": {
     "hooks": {
