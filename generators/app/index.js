@@ -46,6 +46,6 @@ module.exports = class extends Generator {
   }
   install() {
     this.spawnCommand('git', ['init'])
-    this.yarnInstall()
+    this.npmInstall()
   }
 }
