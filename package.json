@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "lodash.kebabcase": "^4.1.1",
-    "npm-check": "^5.9.0",
-    "yeoman-generator": "^4.5.0"
+    "npm-check": "^5.9.2",
+    "yeoman-generator": "^4.6.0"
   },
   "devDependencies": {
-    "kcd-scripts": "^5.2.0"
+    "kcd-scripts": "^5.4.0"
   },
   "husky": {
     "hooks": {
@@ -47,7 +47,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=10.13",
+    "node": ">=10.18",
     "npm": ">=6"
   }
 }
