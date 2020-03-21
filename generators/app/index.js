@@ -38,6 +38,7 @@ module.exports = class extends Generator {
       mv('npmrc', '.npmrc')
       mv('_package.json', 'package.json')
       mv('all-contributorsrc', '.all-contributorsrc')
+      mv('huskyrc.js', '.huskyrc.js')
       mv('prettierrc.js', '.prettierrc.js')
       mv('prettierignore', '.prettierignore')
       mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md')

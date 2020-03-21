@@ -28,15 +28,10 @@
   "dependencies": {
     "lodash.kebabcase": "^4.1.1",
     "npm-check": "^5.9.2",
-    "yeoman-generator": "^4.6.0"
+    "yeoman-generator": "^4.7.2"
   },
   "devDependencies": {
-    "kcd-scripts": "^5.4.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "kcd-scripts pre-commit"
-    }
+    "kcd-scripts": "^5.5.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
@@ -47,7 +42,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=10.18",
+    "node": ">=10",
     "npm": ">=6"
   }
 }
