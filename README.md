@@ -115,7 +115,7 @@ MIT
 [npm]: https://www.npmjs.com
 [node]: https://nodejs.org
 [build-badge]: https://img.shields.io/travis/kentcdodds/generator-kcd-oss.svg?style=flat-square
-[build]: https://travis-ci.org/kentcdodds/generator-kcd-oss
+[build]: https://travis-ci.com/kentcdodds/generator-kcd-oss
 [version-badge]: https://img.shields.io/npm/v/generator-kcd-oss.svg?style=flat-square
 [package]: https://www.npmjs.com/package/generator-kcd-oss
 [downloads-badge]: https://img.shields.io/npm/dm/generator-kcd-oss.svg?style=flat-square
