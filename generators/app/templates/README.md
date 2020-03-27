@@ -113,7 +113,7 @@ MIT
 [npm]: https://www.npmjs.com
 [node]: https://nodejs.org
 [build-badge]: https://img.shields.io/travis/kentcdodds/<%= moduleName %>.svg?style=flat-square
-[build]: https://travis-ci.org/kentcdodds/<%= moduleName %>
+[build]: https://travis-ci.com/kentcdodds/<%= moduleName %>
 [coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/<%= moduleName %>.svg?style=flat-square
 [coverage]: https://codecov.io/github/kentcdodds/<%= moduleName %>
 [version-badge]: https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square
