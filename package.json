@@ -28,10 +28,10 @@
   "dependencies": {
     "lodash.kebabcase": "^4.1.1",
     "npm-check": "^5.9.2",
-    "yeoman-generator": "^4.8.0"
+    "yeoman-generator": "^4.8.2"
   },
   "devDependencies": {
-    "kcd-scripts": "^5.9.0"
+    "kcd-scripts": "^5.10.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
