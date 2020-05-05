@@ -30,10 +30,10 @@
     "validate": "kcd-scripts validate"
   },
   "dependencies": {
-    "@babel/runtime": "^7.8.4"
+    "@babel/runtime": "^7.9.6"
   },
   "devDependencies": {
-    "kcd-scripts": "^5.10.0"
+    "kcd-scripts": "^6.0.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
