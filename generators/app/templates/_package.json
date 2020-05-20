@@ -37,5 +37,10 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
-  }
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ]
 }
