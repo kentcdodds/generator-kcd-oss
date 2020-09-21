@@ -33,7 +33,7 @@
     "@babel/runtime": "^7.9.6"
   },
   "devDependencies": {
-    "kcd-scripts": "^6.3.0"
+    "kcd-scripts": "^6.5.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
