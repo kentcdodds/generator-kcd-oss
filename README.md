@@ -11,7 +11,7 @@
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npmtrends]
 [![MIT License][license-badge]][license]
-[![All Contributors](https://img.shields.io/github/all-contributors/kentcdodds/generator-kcd-oss?color=orange&style=flat-square)](#contributors-)
+[![All Contributors][all-contributors-badge]](#contributors-)
 [![PRs Welcome][prs-badge]][prs]
 [![Code of Conduct][coc-badge]][coc]
 <!-- prettier-ignore-end -->
@@ -131,6 +131,7 @@ MIT
 [coc]: https://github.com/kentcdodds/generator-kcd-oss/blob/master/other/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/all-contributors/all-contributors#emoji-key
 [all-contributors]: https://github.com/all-contributors/all-contributors
+[all-contributors-badge]: https://img.shields.io/github/all-contributors/kentcdodds/generator-kcd-oss?color=orange&style=flat-square
 [bugs]: https://github.com/kentcdodds/generator-kcd-oss/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Acreated-desc+label%3Abug
 [requests]: https://github.com/kentcdodds/generator-kcd-oss/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
 [good-first-issue]: https://github.com/kentcdodds/generator-kcd-oss/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
