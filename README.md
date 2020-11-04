@@ -117,8 +117,8 @@ MIT
 <!-- prettier-ignore-start -->
 [npm]: https://www.npmjs.com
 [node]: https://nodejs.org
-[build-badge]: https://img.shields.io/travis/com/kentcdodds/generator-kcd-oss.svg?style=flat-square
-[build]: https://travis-ci.com/kentcdodds/generator-kcd-oss
+[build-badge]: https://img.shields.io/github/workflow/status/kentcdodds/generator-kcd-oss/validate/main?logo=github&style=flat-square
+[build]: https://github.com/kentcdodds/generator-kcd-oss/actions?query=workflow%3Avalidate
 [version-badge]: https://img.shields.io/npm/v/generator-kcd-oss.svg?style=flat-square
 [package]: https://www.npmjs.com/package/generator-kcd-oss
 [downloads-badge]: https://img.shields.io/npm/dm/generator-kcd-oss.svg?style=flat-square
