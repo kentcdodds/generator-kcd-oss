@@ -111,7 +111,7 @@ MIT
 <!-- prettier-ignore-start -->
 [npm]: https://www.npmjs.com
 [node]: https://nodejs.org
-[build-badge]: https://img.shields.io/github/workflow/status/kentcdodds/<%= moduleName %>/validate/main?logo=github&style=flat-square
+[build-badge]: https://img.shields.io/github/workflow/status/kentcdodds/<%= moduleName %>/validate?logo=github&style=flat-square
 [build]: https://github.com/kentcdodds/<%= moduleName %>/actions?query=workflow%3Avalidate
 [coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/<%= moduleName %>.svg?style=flat-square
 [coverage]: https://codecov.io/github/kentcdodds/<%= moduleName %>
