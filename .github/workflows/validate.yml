@@ -5,7 +5,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-        node: [10.13, 12, 14]
+        node: [10.13, 12, 14, 15]
     runs-on: ${{ matrix.os }}
     steps:
       - name: ⬇️ Checkout repo
@@ -28,8 +28,12 @@ jobs:
         uses: codecov/codecov-action@v1
 
   release:
-    runs-on: ubuntu-latest
     needs: main
+    runs-on: ubuntu-latest
+    if:
+      ${{
+      contains('refs/heads/master,refs/heads/beta,refs/heads/next,refs/heads/alpha',
+      github.ref) && github.event_name == 'push' }}
     steps:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v2
@@ -37,7 +41,7 @@ jobs:
       - name: ⎔ Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 14
 
       - name: 📥 Download deps
         uses: bahmutov/npm-install@v1
@@ -47,14 +51,14 @@ jobs:
       - name: 🚀 Release
         uses: cycjimmy/semantic-release-action@v2
         with:
-          semantic_version: 16
+          semantic_version: 17
           branches: |
             [
               '+([0-9])?(.{+([0-9]),x}).x',
-              'master', 
-              'next', 
-              'next-major', 
-              {name: 'beta', prerelease: true}, 
+              'master',
+              'next',
+              'next-major',
+              {name: 'beta', prerelease: true},
               {name: 'alpha', prerelease: true}
             ]
         env:
