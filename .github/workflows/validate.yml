@@ -1,6 +1,6 @@
 name: validate
 if: ${{ !contains('refs/heads/all-contributors', github.ref) }}
-on: 
+on:
   push:
     branches:
       [
@@ -10,8 +10,10 @@ on:
         'next-major',
         'beta',
         'alpha',
+        '!all-contributors/**',
       ]
-  pull_request: {}
+  pull_request:
+    branches: ['!all-contributors/**']
 jobs:
   main:
     strategy:
@@ -41,10 +43,7 @@ jobs:
   release:
     needs: main
     runs-on: ubuntu-latest
-    if:
-      ${{ github.repository == 'kentcdodds/generator-kcd-oss' &&
-      contains('refs/heads/master,refs/heads/beta,refs/heads/next,refs/heads/alpha',
-      github.ref) && github.event_name == 'push' }}
+    if: ${{ github.repository == 'kentcdodds/generator-kcd-oss' && contains('refs/heads/master,refs/heads/beta,refs/heads/next,refs/heads/alpha', github.ref) && github.event_name == 'push' }}
     steps:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v2
