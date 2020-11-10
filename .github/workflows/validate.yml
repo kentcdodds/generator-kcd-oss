@@ -12,7 +12,7 @@ on:
         '!all-contributors/**',
       ]
   pull_request:
-    branches: ['!all-contributors/**']
+    branches-ignore: ['all-contributors/**']
 jobs:
   main:
     strategy:
