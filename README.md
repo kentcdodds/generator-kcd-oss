@@ -1,7 +1,7 @@
 <div align="center">
 <h1>generator-kcd-oss</h1>
 
-<p>An open source project generator for my open source projects :)</p>
+<p>An open source project generator for my open source projects TEST</p>
 </div>
 
 ---
