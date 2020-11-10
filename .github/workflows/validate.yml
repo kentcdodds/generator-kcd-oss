@@ -1,5 +1,4 @@
 name: validate
-if: ${{ !contains('refs/heads/all-contributors', github.ref) }}
 on:
   push:
     branches:
