@@ -101,6 +101,7 @@ Thanks goes to these people ([emoji key][emojis]):
     <td align="center"><a href="https://edm00se.codes/"><img src="https://avatars3.githubusercontent.com/u/622118?v=4" width="100px;" alt=""/><br /><sub><b>Eric McCormick</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=edm00se" title="Documentation">📖</a></td>
     <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=MichaelDeBoey" title="Code">💻</a> <a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=MichaelDeBoey" title="Documentation">📖</a></td>
     <td align="center"><a href="https://matan.io"><img src="https://avatars2.githubusercontent.com/u/12711091?v=4" width="100px;" alt=""/><br /><sub><b>Matan Borenkraout</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=MatanBobi" title="Code">💻</a></td>
+    <td align="center"><a href="https://nickmccurdy.com/"><img src="https://avatars0.githubusercontent.com/u/927220?v=4" width="100px;" alt=""/><br /><sub><b>Nick McCurdy</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=nickmccurdy" title="Documentation">📖</a></td>
   </tr>
 </table>
 
@@ -129,7 +130,7 @@ MIT
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]: https://github.com/kentcdodds/generator-kcd-oss/blob/master/other/CODE_OF_CONDUCT.md
+[coc]: https://github.com/kentcdodds/generator-kcd-oss/blob/master/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/all-contributors/all-contributors#emoji-key
 [all-contributors]: https://github.com/all-contributors/all-contributors
 [all-contributors-badge]: https://img.shields.io/github/all-contributors/kentcdodds/generator-kcd-oss?color=orange&style=flat-square
