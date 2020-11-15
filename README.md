@@ -101,6 +101,7 @@ Thanks goes to these people ([emoji key][emojis]):
     <td align="center"><a href="https://edm00se.codes/"><img src="https://avatars3.githubusercontent.com/u/622118?v=4" width="100px;" alt=""/><br /><sub><b>Eric McCormick</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=edm00se" title="Documentation">📖</a></td>
     <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=MichaelDeBoey" title="Code">💻</a> <a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=MichaelDeBoey" title="Documentation">📖</a></td>
     <td align="center"><a href="https://matan.io"><img src="https://avatars2.githubusercontent.com/u/12711091?v=4" width="100px;" alt=""/><br /><sub><b>Matan Borenkraout</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=MatanBobi" title="Code">💻</a></td>
+    <td align="center"><a href="https://nickmccurdy.com/"><img src="https://avatars0.githubusercontent.com/u/927220?v=4" width="100px;" alt=""/><br /><sub><b>Nick McCurdy</b></sub></a><br /><a href="https://github.com/kentcdodds/generator-kcd-oss/commits?author=nickmccurdy" title="Documentation">📖</a></td>
   </tr>
 </table>
 
