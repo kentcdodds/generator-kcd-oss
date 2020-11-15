@@ -46,7 +46,7 @@ module.exports = class extends Generator {
     })
   }
   install() {
-    this.spawnCommand('git', ['init'])
+    this.spawnCommand('git', ['init', '--initial-branch', 'main'])
     this.npmInstall()
   }
 }
