@@ -118,7 +118,7 @@ MIT
 [version-badge]: https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square
 [package]: https://www.npmjs.com/package/<%= moduleName %>
 [downloads-badge]: https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square
-[npmtrends]: http://www.npmtrends.com/<%= moduleName %>
+[npmtrends]: https://www.npmtrends.com/<%= moduleName %>
 [license-badge]: https://img.shields.io/npm/l/<%= moduleName %>.svg?style=flat-square
 [license]: https://github.com/kentcdodds/<%= moduleName %>/blob/main/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square

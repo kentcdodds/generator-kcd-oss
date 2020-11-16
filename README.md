@@ -107,6 +107,7 @@ Thanks goes to these people ([emoji key][emojis]):
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
@@ -124,7 +125,7 @@ MIT
 [version-badge]: https://img.shields.io/npm/v/generator-kcd-oss.svg?style=flat-square
 [package]: https://www.npmjs.com/package/generator-kcd-oss
 [downloads-badge]: https://img.shields.io/npm/dm/generator-kcd-oss.svg?style=flat-square
-[npmtrends]: http://www.npmtrends.com/generator-kcd-oss
+[npmtrends]: https://www.npmtrends.com/generator-kcd-oss
 [license-badge]: https://img.shields.io/npm/l/generator-kcd-oss.svg?style=flat-square
 [license]: https://github.com/kentcdodds/generator-kcd-oss/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
