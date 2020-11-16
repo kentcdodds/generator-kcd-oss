@@ -17,7 +17,8 @@ learn how: https://kcd.im/pull-request
 
 Relevant code or config
 
-```javascript
+```js
+
 ```
 
 What you did:
