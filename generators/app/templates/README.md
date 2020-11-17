@@ -122,7 +122,7 @@ MIT
 [license-badge]: https://img.shields.io/npm/l/<%= moduleName %>.svg?style=flat-square
 [license]: https://github.com/kentcdodds/<%= moduleName %>/blob/main/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[prs]: http://makeapullrequest.com
+[prs]: https://makeapullrequest.com
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/kentcdodds/<%= moduleName %>/blob/main/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/all-contributors/all-contributors#emoji-key
