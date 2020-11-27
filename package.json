@@ -39,7 +39,8 @@
   "eslintIgnore": [
     "node_modules",
     "coverage",
-    "dist"
+    "dist",
+    "generators/app/templates/src"
   ],
   "engines": {
     "node": ">=10",
