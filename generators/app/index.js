@@ -40,7 +40,6 @@ module.exports = class extends Generator {
       mv('huskyrc.js', '.huskyrc.js')
       mv('prettierrc.js', '.prettierrc.js')
       mv('prettierignore', '.prettierignore')
-      mv('github/dependabot.yml', '.github/dependabot.yml')
       mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md')
       mv('github/PULL_REQUEST_TEMPLATE.md', '.github/PULL_REQUEST_TEMPLATE.md')
       mv('github/workflows/validate.yml', '.github/workflows/validate.yml')
