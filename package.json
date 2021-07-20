@@ -31,7 +31,7 @@
     "yeoman-generator": "^4.13.0"
   },
   "devDependencies": {
-    "kcd-scripts": "^10.0.0"
+    "kcd-scripts": "^11.1.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/kcd-scripts/eslint.js"
